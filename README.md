@@ -1,4 +1,4 @@
-# projet-esme
+# PROJET-ESME
 
 Le but de ce projet est de collecter les données météos de plusieurs villes, ici Paris, London, Tokyo, Melbourne, Milan, en utilisant l'API OpenWeather. Le producer collecte les données météo et les envoie au topic kafka (broker) qui les stocks. Ensuite, le consumer récupère les données depuis le broker, les transforme et les analyse en ajoutant des variables comme un indice de chaleur par exemple. 
 
